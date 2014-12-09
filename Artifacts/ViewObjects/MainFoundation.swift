@@ -16,7 +16,7 @@ class MainFoundation: UIViewController {
 
     var myGameObject = GameObject() //init
     var myGameActions = GameActions() //init
-    
+    var myCardActionController = CardActionController() //init
 //
 // MARK: - Life Cycle
 //

@@ -20,13 +20,14 @@ class GameScreenView: MainFoundation {
 // MARK: - Simple Single Card Action Button
 //
     
+    // warning must make targeting system
     @IBAction func card01Action(sender: UIButton) {
-        exampleAction()
+        exampleCardAction()
     }
     
-    func exampleAction () {
-        println("click action")
-        //self.myGameActions.removeLifeTest(self.myGameObject.playerOne)
+    func exampleCardAction () {
+        println("-- click action --")
+        playerCardTestClass()
         self.myGameActions.updatePlayerLifeView (self.playerOneLifeCounterLabel, myPlayerObject : self.myGameObject.playerOne)
     }
   
@@ -36,85 +37,31 @@ class GameScreenView: MainFoundation {
     
     func initalViewSetup () {
         println("initalViewSetup")
-        
         self.myGameActions.gameInitialViewLoad (self.playerOneLifeCounterLabel, myPlayerObject : self.myGameObject.playerOne)
         self.myGameActions.gameIntialLoad (self.myGameObject.playerTwo)
-        
-        
-        playerCardTestClass()
-        
     }
  
 //
 // MARK: - Test Class
 //
     
-    func playerCardTestClass () {
+    func playerCardTestClass ()
+    {
         var playerTwoCardDeck = self.myGameObject.playerTwo.playerCardDeck
         var myCardGroup = playerTwoCardDeck.cardGroup
-        var mySpellCard : SpellCard = myCardGroup![0]
+        var mySpellCard : SpellCard = myCardGroup![0] //card needs to be chosen from hand card list object
         var mySpellCardPropertyListDictionary = mySpellCard.spellCardPropertyListDictionary
         var mySpellCardEffectListDictionary = mySpellCard.spellCardEffectListDictionary
 
         if let cardName : AnyObject = mySpellCardPropertyListDictionary!["cardName"] {
-            println("The name of the card is \(cardName).")
         }
         
         if let cardText : AnyObject = mySpellCardPropertyListDictionary!["cardText"] {
-            println("The text of the card is \(cardText).")
         }
         
-        cardEffectState(mySpellCardEffectListDictionary!)
-        
-        
+        // warning : must make targeting system
+        self.myCardActionController.cardEffectStateBuilder(mySpellCardEffectListDictionary!, withTargetList : [self.myGameObject.playerOne])
     }
-    
-    func cardEffectState (mySpellCardEffectListDictionary : [String:AnyObject]) {
-        
-
-        var myEffectStateStack = EffectStateStack()
-        
-        if let damageCheck : AnyObject = mySpellCardEffectListDictionary["damage"] {
-            myEffectStateStack.damageAmount = damageCheck as Int
-            println("The effect damage is : \(damageCheck)")
-        }
-        
-        if let functionCheck : AnyObject = mySpellCardEffectListDictionary["functionName"] {
-            let myString : String = functionCheck as String
-            println("The effect damage is : \(myString)")
-
-            var myEffectArray
-            if let myArray = myEffectStateStack.effectArray {
-                println("xxx")
-            }
-            else {
-                println("yyy")
-            }
-            
-            /*
-            if myArray.isEmpty {
-                println("empty array")
-                myEffectStateStack.effectArray = [myString]
-            }
-            else {
-                println("non empty array")
-                myEffectStateStack.effectArray?.append(myString)
-            }
-            */
-            
-           // myEffectStateStack.effectArray!.append(myString)
-            
-        }
-        
-        println("Extra info : \(myEffectStateStack.effectArray)")
-
-        //if let effectDamage : AnyObject = myCardEffect["damage"] {
-            //println("The effect damage is : \(effectDamage)")
-        //}
-        
-        
-    }
-    
     
 //
 // MARK: - Life Cycle

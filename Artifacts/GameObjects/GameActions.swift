@@ -12,10 +12,8 @@ import UIKit
 class GameActions : GameObject {
     
     func gameIntialLoad (myPlayerObject : PlayerObject) {
-        
         var myCardDeckLoadActions = CardDeckLoadActions()
         myPlayerObject.playerCardDeck = myCardDeckLoadActions.loadExampleDeck()
-        
     }
     
     func gameInitialViewLoad (playerOneLabel : UILabel, myPlayerObject : PlayerObject) {
@@ -26,7 +24,5 @@ class GameActions : GameObject {
         let playerLifeTotal = String(myPlayerObject.currentLifeTotal)
         playerLabel.text = playerLifeTotal
     }
-    
-    
     
 }

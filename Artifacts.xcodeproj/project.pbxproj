@@ -11,6 +11,7 @@
 		C65151ED1A365E8E00823C67 /* SpellCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65151EC1A365E8E00823C67 /* SpellCard.swift */; };
 		C65151EF1A36621200823C67 /* CardDeckLoadActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65151EE1A36621200823C67 /* CardDeckLoadActions.swift */; };
 		C65151F31A36C0E500823C67 /* EffectStateStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65151F21A36C0E500823C67 /* EffectStateStack.swift */; };
+		C65151F51A36DB7A00823C67 /* CardActionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65151F41A36DB7A00823C67 /* CardActionController.swift */; };
 		C6834F511A346BFE00CE3F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6834F501A346BFE00CE3F27 /* AppDelegate.swift */; };
 		C6834F541A346BFE00CE3F27 /* Artifacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6834F521A346BFE00CE3F27 /* Artifacts.xcdatamodeld */; };
 		C6834F591A346BFE00CE3F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6834F571A346BFE00CE3F27 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		C65151EC1A365E8E00823C67 /* SpellCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpellCard.swift; path = GameObjects/SpellCard.swift; sourceTree = "<group>"; };
 		C65151EE1A36621200823C67 /* CardDeckLoadActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardDeckLoadActions.swift; path = GameObjects/CardDeckLoadActions.swift; sourceTree = "<group>"; };
 		C65151F21A36C0E500823C67 /* EffectStateStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EffectStateStack.swift; path = GameObjects/EffectStateStack.swift; sourceTree = "<group>"; };
+		C65151F41A36DB7A00823C67 /* CardActionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardActionController.swift; path = GameObjects/CardActionController.swift; sourceTree = "<group>"; };
 		C6834F4B1A346BFE00CE3F27 /* Artifacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artifacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6834F4F1A346BFE00CE3F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6834F501A346BFE00CE3F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				C6834F7E1A34719800CE3F27 /* PlayerObject.swift */,
 				C6834F811A34738700CE3F27 /* CardObject.swift */,
 				C6834F831A34780500CE3F27 /* CardActionsList.swift */,
+				C65151F41A36DB7A00823C67 /* CardActionController.swift */,
 				C65151EC1A365E8E00823C67 /* SpellCard.swift */,
 				C65151F21A36C0E500823C67 /* EffectStateStack.swift */,
 				C65151EA1A365C2500823C67 /* CardDeck.swift */,
@@ -306,6 +309,7 @@
 				C6834F821A34738700CE3F27 /* CardObject.swift in Sources */,
 				C65151EF1A36621200823C67 /* CardDeckLoadActions.swift in Sources */,
 				C65151F31A36C0E500823C67 /* EffectStateStack.swift in Sources */,
+				C65151F51A36DB7A00823C67 /* CardActionController.swift in Sources */,
 				C6834F881A34D79500CE3F27 /* GameActions.swift in Sources */,
 				C65151ED1A365E8E00823C67 /* SpellCard.swift in Sources */,
 				C6834F7C1A346F8D00CE3F27 /* GameScreenView.swift in Sources */,

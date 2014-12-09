@@ -8,10 +8,15 @@
 
 import Foundation
 
-class CardActionList : CardObject {
+class CardActionList {
+    
+    init() {
         
+    }
+
     func dealDamageToTarget (damage : Int, myPlayerObject : PlayerObject) {
         myPlayerObject.currentLifeTotal = myPlayerObject.currentLifeTotal - damage
     }
     
 }
+

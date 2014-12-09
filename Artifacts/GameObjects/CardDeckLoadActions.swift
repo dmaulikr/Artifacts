@@ -22,9 +22,10 @@ class CardDeckLoadActions {
         mySpellCard.spellCardPropertyListDictionary = ["cardName" : "Lightning Bolt",
                                                        "cardText" : "Deal 3 damage"]
         
+        //may change
         mySpellCard.spellCardEffectListDictionary = ["damage" : 3,
-                                               "functionName" : "dealDamageToTarget"]
-        
+                                              "functionCount" : 1,
+                                              "firstFunction" : "dealDamageToTarget"]
         
         var myCardDeck = CardDeck()
         myCardDeck.cardCount = 1

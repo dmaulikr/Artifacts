@@ -12,4 +12,5 @@ class SpellCard : CardActionList {
     
     var spellCardPropertyListDictionary : [String : AnyObject]?
     var spellCardEffectListDictionary : [String : AnyObject]?
+
 }

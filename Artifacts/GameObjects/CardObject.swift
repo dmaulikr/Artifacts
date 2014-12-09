@@ -12,6 +12,10 @@ import Foundation
 
 class CardObject {
     
+    init() {
+        
+    }
+    
     var cardID : Int = 0
     var cardName : String = ""
     var cardClass : String = ""

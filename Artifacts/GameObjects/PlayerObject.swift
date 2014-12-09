@@ -10,6 +10,10 @@ import Foundation
 
 class PlayerObject  {
 
+    init() {
+        
+    }
+    
     var currentLifeTotal = 100
     var damageTaken = 0
     var healingTaken = 0
@@ -18,6 +22,7 @@ class PlayerObject  {
     var playerPoints = 0
     var playerAttack = 0
     var playerArmor = 0
+    var playerCardDeck = CardDeck()
     
     func resetPlayer () {
         self.currentLifeTotal = 100

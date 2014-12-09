@@ -9,24 +9,24 @@
 import Foundation
 import UIKit
 
-
 class GameActions : GameObject {
     
-    func gameIntialLoad () {
+    func gameIntialLoad (myPlayerObject : PlayerObject) {
+        
+        var myCardDeckLoadActions = CardDeckLoadActions()
+        myPlayerObject.playerCardDeck = myCardDeckLoadActions.loadExampleDeck()
         
     }
     
     func gameInitialViewLoad (playerOneLabel : UILabel, myPlayerObject : PlayerObject) {
-        updatePlayerOneLifeView(playerOneLabel, myPlayerObject : myPlayerObject)
+        updatePlayerLifeView(playerOneLabel, myPlayerObject : myPlayerObject)
     }
     
-    func updatePlayerLifeView (playerOneLabel : UILabel, myPlayerObject : PlayerObject) {
-        let playerOneLifeTotal = String(myPlayerObject.currentLifeTotal)
-        playerOneLabel.text = playerOneLifeTotal
+    func updatePlayerLifeView (playerLabel : UILabel, myPlayerObject : PlayerObject) {
+        let playerLifeTotal = String(myPlayerObject.currentLifeTotal)
+        playerLabel.text = playerLifeTotal
     }
     
-    func removeLifeTest (myPlayerObject : PlayerObject) {
-        myPlayerObject.currentLifeTotal = myPlayerObject.currentLifeTotal - 3
-    }
+    
     
 }

@@ -10,8 +10,11 @@ import Foundation
 
 class GameObject {
     
+    init() {
+        
+    }
+    
     var playerOne = PlayerObject()
     var playerTwo = PlayerObject()
-    
     
 }

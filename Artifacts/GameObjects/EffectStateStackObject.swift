@@ -9,7 +9,7 @@
 import Foundation
 
 
-class EffectStateStack {
+class EffectStateStackObject {
     
     init() {
         

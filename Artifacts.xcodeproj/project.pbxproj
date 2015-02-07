@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C65151EB1A365C2500823C67 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65151EA1A365C2500823C67 /* CardDeck.swift */; };
-		C65151ED1A365E8E00823C67 /* SpellCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65151EC1A365E8E00823C67 /* SpellCard.swift */; };
+		C65151EB1A365C2500823C67 /* DeckObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65151EA1A365C2500823C67 /* DeckObject.swift */; };
 		C65151EF1A36621200823C67 /* CardDeckLoadActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65151EE1A36621200823C67 /* CardDeckLoadActions.swift */; };
-		C65151F31A36C0E500823C67 /* EffectStateStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65151F21A36C0E500823C67 /* EffectStateStack.swift */; };
+		C65151F31A36C0E500823C67 /* EffectStateStackObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65151F21A36C0E500823C67 /* EffectStateStackObject.swift */; };
 		C65151F51A36DB7A00823C67 /* CardActionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65151F41A36DB7A00823C67 /* CardActionController.swift */; };
+		C657AA4C1A77285C00BE1C84 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657AA4A1A77285C00BE1C84 /* CardView.swift */; };
+		C657AA4D1A77285C00BE1C84 /* PlayerHandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657AA4B1A77285C00BE1C84 /* PlayerHandView.swift */; };
+		C657AA4F1A77291400BE1C84 /* ViewObjectClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657AA4E1A77291400BE1C84 /* ViewObjectClass.swift */; };
+		C657AA511A77294900BE1C84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C657AA501A77294900BE1C84 /* QuartzCore.framework */; };
+		C679962E1A8192380079868C /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C679962D1A8192380079868C /* CardList.swift */; };
+		C67996301A8195160079868C /* CardHandLoadActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C679962F1A8195160079868C /* CardHandLoadActions.swift */; };
 		C6834F511A346BFE00CE3F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6834F501A346BFE00CE3F27 /* AppDelegate.swift */; };
 		C6834F541A346BFE00CE3F27 /* Artifacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6834F521A346BFE00CE3F27 /* Artifacts.xcdatamodeld */; };
 		C6834F591A346BFE00CE3F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6834F571A346BFE00CE3F27 /* Main.storyboard */; };
@@ -26,6 +31,18 @@
 		C6834F841A34780500CE3F27 /* CardActionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6834F831A34780500CE3F27 /* CardActionsList.swift */; };
 		C6834F861A34D69300CE3F27 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6834F851A34D69300CE3F27 /* GameObject.swift */; };
 		C6834F881A34D79500CE3F27 /* GameActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6834F871A34D79500CE3F27 /* GameActions.swift */; };
+		C689F3E81A8349620078389B /* CardListObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689F3E71A8349620078389B /* CardListObject.swift */; };
+		C6A921D81A81B4E300C26B77 /* CardDBList.json in Resources */ = {isa = PBXBuildFile; fileRef = C6A921D71A81B4E300C26B77 /* CardDBList.json */; };
+		C6A921DA1A81B95100C26B77 /* CardDBMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A921D91A81B95100C26B77 /* CardDBMap.swift */; };
+		C6BDDBB91A7EF7830002BCFF /* PlayerHandObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BDDBB81A7EF7830002BCFF /* PlayerHandObject.swift */; };
+		C6C22A761A7B067600F6464A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C6C22A751A7B067600F6464A /* icon.png */; };
+		C6DB927A1A84795D009CA2B3 /* PlayerDBMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DB92791A84795D009CA2B3 /* PlayerDBMap.swift */; };
+		C6DB927C1A847DD0009CA2B3 /* PlayerDBObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DB927B1A847DD0009CA2B3 /* PlayerDBObject.swift */; };
+		C6DB92801A848DEE009CA2B3 /* DeckAudibleListObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DB927F1A848DEE009CA2B3 /* DeckAudibleListObject.swift */; };
+		C6DB92821A84A427009CA2B3 /* PlayerDBList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DB92811A84A427009CA2B3 /* PlayerDBList.swift */; };
+		C6EB074A1A85AB8600B5A75C /* PlayerDBList.json in Resources */ = {isa = PBXBuildFile; fileRef = C6EB07491A85AB8600B5A75C /* PlayerDBList.json */; };
+		C6F97BA41A77049000BD9998 /* CreatureObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F97BA31A77049000BD9998 /* CreatureObject.swift */; };
+		C6FA06911A73425A007F4447 /* Artifact Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = C6FA06901A73425A007F4447 /* Artifact Notes.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +56,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C65151EA1A365C2500823C67 /* CardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardDeck.swift; path = GameObjects/CardDeck.swift; sourceTree = "<group>"; };
-		C65151EC1A365E8E00823C67 /* SpellCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpellCard.swift; path = GameObjects/SpellCard.swift; sourceTree = "<group>"; };
+		C65151EA1A365C2500823C67 /* DeckObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeckObject.swift; path = GameObjects/DeckObject.swift; sourceTree = "<group>"; };
 		C65151EE1A36621200823C67 /* CardDeckLoadActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardDeckLoadActions.swift; path = GameObjects/CardDeckLoadActions.swift; sourceTree = "<group>"; };
-		C65151F21A36C0E500823C67 /* EffectStateStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EffectStateStack.swift; path = GameObjects/EffectStateStack.swift; sourceTree = "<group>"; };
+		C65151F21A36C0E500823C67 /* EffectStateStackObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EffectStateStackObject.swift; path = GameObjects/EffectStateStackObject.swift; sourceTree = "<group>"; };
 		C65151F41A36DB7A00823C67 /* CardActionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardActionController.swift; path = GameObjects/CardActionController.swift; sourceTree = "<group>"; };
+		C657AA4A1A77285C00BE1C84 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = ViewClassObjects/CardView.swift; sourceTree = "<group>"; };
+		C657AA4B1A77285C00BE1C84 /* PlayerHandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerHandView.swift; path = ViewClassObjects/PlayerHandView.swift; sourceTree = "<group>"; };
+		C657AA4E1A77291400BE1C84 /* ViewObjectClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewObjectClass.swift; path = ViewObjects/ViewObjectClass.swift; sourceTree = "<group>"; };
+		C657AA501A77294900BE1C84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C679962D1A8192380079868C /* CardList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardList.swift; path = GameObjects/CardList.swift; sourceTree = "<group>"; };
+		C679962F1A8195160079868C /* CardHandLoadActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardHandLoadActions.swift; path = GameObjects/CardHandLoadActions.swift; sourceTree = "<group>"; };
 		C6834F4B1A346BFE00CE3F27 /* Artifacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artifacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6834F4F1A346BFE00CE3F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6834F501A346BFE00CE3F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +84,18 @@
 		C6834F831A34780500CE3F27 /* CardActionsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardActionsList.swift; path = GameObjects/CardActionsList.swift; sourceTree = "<group>"; };
 		C6834F851A34D69300CE3F27 /* GameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameObject.swift; path = GameObjects/GameObject.swift; sourceTree = "<group>"; };
 		C6834F871A34D79500CE3F27 /* GameActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameActions.swift; path = GameObjects/GameActions.swift; sourceTree = "<group>"; };
+		C689F3E71A8349620078389B /* CardListObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardListObject.swift; path = GameObjects/CardListObject.swift; sourceTree = "<group>"; };
+		C6A921D71A81B4E300C26B77 /* CardDBList.json */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.json; path = CardDBList.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
+		C6A921D91A81B95100C26B77 /* CardDBMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardDBMap.swift; path = DataObjects/CardDBMap.swift; sourceTree = "<group>"; };
+		C6BDDBB81A7EF7830002BCFF /* PlayerHandObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerHandObject.swift; path = GameObjects/PlayerHandObject.swift; sourceTree = "<group>"; };
+		C6C22A751A7B067600F6464A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C6DB92791A84795D009CA2B3 /* PlayerDBMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerDBMap.swift; path = GameObjects/PlayerDBMap.swift; sourceTree = "<group>"; };
+		C6DB927B1A847DD0009CA2B3 /* PlayerDBObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerDBObject.swift; path = GameObjects/PlayerDBObject.swift; sourceTree = "<group>"; };
+		C6DB927F1A848DEE009CA2B3 /* DeckAudibleListObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeckAudibleListObject.swift; path = GameObjects/DeckAudibleListObject.swift; sourceTree = "<group>"; };
+		C6DB92811A84A427009CA2B3 /* PlayerDBList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerDBList.swift; path = GameObjects/PlayerDBList.swift; sourceTree = "<group>"; };
+		C6EB07491A85AB8600B5A75C /* PlayerDBList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PlayerDBList.json; sourceTree = "<group>"; };
+		C6F97BA31A77049000BD9998 /* CreatureObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreatureObject.swift; path = GameObjects/CreatureObject.swift; sourceTree = "<group>"; };
+		C6FA06901A73425A007F4447 /* Artifact Notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artifact Notes.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C657AA511A77294900BE1C84 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +120,7 @@
 		C6834F421A346BFE00CE3F27 = {
 			isa = PBXGroup;
 			children = (
+				C657AA501A77294900BE1C84 /* QuartzCore.framework */,
 				C6834F4D1A346BFE00CE3F27 /* Artifacts */,
 				C6834F661A346BFE00CE3F27 /* ArtifactsTests */,
 				C6834F4C1A346BFE00CE3F27 /* Products */,
@@ -103,12 +139,15 @@
 		C6834F4D1A346BFE00CE3F27 /* Artifacts */ = {
 			isa = PBXGroup;
 			children = (
+				C6C22A751A7B067600F6464A /* icon.png */,
+				C6FA06901A73425A007F4447 /* Artifact Notes.txt */,
+				C6834F571A346BFE00CE3F27 /* Main.storyboard */,
 				C6834F771A346EDD00CE3F27 /* Menu */,
 				C6834F791A346F2E00CE3F27 /* Foundation */,
-				C6834F7D1A346F9E00CE3F27 /* Game */,
-				C6834F801A34727900CE3F27 /* PlayerObjects */,
+				C6834F7D1A346F9E00CE3F27 /* Game View */,
+				C6FA069A1A734BA1007F4447 /* View Objects */,
+				C6834F801A34727900CE3F27 /* Mechanic Objects */,
 				C6834F781A346EE900CE3F27 /* Delegate */,
-				C6834F571A346BFE00CE3F27 /* Main.storyboard */,
 				C6834F7A1A346F4400CE3F27 /* Core Data */,
 				C6834F4E1A346BFE00CE3F27 /* Supporting Files */,
 			);
@@ -161,6 +200,7 @@
 		C6834F791A346F2E00CE3F27 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				C657AA4E1A77291400BE1C84 /* ViewObjectClass.swift */,
 				C6834F731A346E9400CE3F27 /* MainFoundation.swift */,
 			);
 			name = Foundation;
@@ -174,29 +214,97 @@
 			name = "Core Data";
 			sourceTree = "<group>";
 		};
-		C6834F7D1A346F9E00CE3F27 /* Game */ = {
+		C6834F7D1A346F9E00CE3F27 /* Game View */ = {
 			isa = PBXGroup;
 			children = (
 				C6834F7B1A346F8D00CE3F27 /* GameScreenView.swift */,
 			);
-			name = Game;
+			name = "Game View";
 			sourceTree = "<group>";
 		};
-		C6834F801A34727900CE3F27 /* PlayerObjects */ = {
+		C6834F801A34727900CE3F27 /* Mechanic Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C6FA068C1A733BE7007F4447 /* Basic Objects */,
+				C6FA068F1A733E52007F4447 /* Effect List */,
+				C6FA068E1A733C21007F4447 /* State Resolution */,
+				C6FA068D1A733BF6007F4447 /* Loaders */,
+			);
+			name = "Mechanic Objects";
+			sourceTree = "<group>";
+		};
+		C6DB92771A846E59009CA2B3 /* CardDB */ = {
+			isa = PBXGroup;
+			children = (
+				C6A921D71A81B4E300C26B77 /* CardDBList.json */,
+				C6A921D91A81B95100C26B77 /* CardDBMap.swift */,
+			);
+			name = CardDB;
+			sourceTree = "<group>";
+		};
+		C6DB92781A846E64009CA2B3 /* PlayerDB */ = {
+			isa = PBXGroup;
+			children = (
+				C6EB07491A85AB8600B5A75C /* PlayerDBList.json */,
+				C6DB92791A84795D009CA2B3 /* PlayerDBMap.swift */,
+			);
+			name = PlayerDB;
+			sourceTree = "<group>";
+		};
+		C6FA068C1A733BE7007F4447 /* Basic Objects */ = {
 			isa = PBXGroup;
 			children = (
 				C6834F7E1A34719800CE3F27 /* PlayerObject.swift */,
+				C6BDDBB81A7EF7830002BCFF /* PlayerHandObject.swift */,
+				C6F97BA31A77049000BD9998 /* CreatureObject.swift */,
 				C6834F811A34738700CE3F27 /* CardObject.swift */,
-				C6834F831A34780500CE3F27 /* CardActionsList.swift */,
-				C65151F41A36DB7A00823C67 /* CardActionController.swift */,
-				C65151EC1A365E8E00823C67 /* SpellCard.swift */,
-				C65151F21A36C0E500823C67 /* EffectStateStack.swift */,
-				C65151EA1A365C2500823C67 /* CardDeck.swift */,
-				C65151EE1A36621200823C67 /* CardDeckLoadActions.swift */,
 				C6834F851A34D69300CE3F27 /* GameObject.swift */,
+				C65151EA1A365C2500823C67 /* DeckObject.swift */,
+				C6DB927F1A848DEE009CA2B3 /* DeckAudibleListObject.swift */,
+				C689F3E71A8349620078389B /* CardListObject.swift */,
+				C6DB927B1A847DD0009CA2B3 /* PlayerDBObject.swift */,
+				C6DB92811A84A427009CA2B3 /* PlayerDBList.swift */,
+			);
+			name = "Basic Objects";
+			sourceTree = "<group>";
+		};
+		C6FA068D1A733BF6007F4447 /* Loaders */ = {
+			isa = PBXGroup;
+			children = (
+				C65151EE1A36621200823C67 /* CardDeckLoadActions.swift */,
+				C679962F1A8195160079868C /* CardHandLoadActions.swift */,
 				C6834F871A34D79500CE3F27 /* GameActions.swift */,
 			);
-			name = PlayerObjects;
+			name = Loaders;
+			sourceTree = "<group>";
+		};
+		C6FA068E1A733C21007F4447 /* State Resolution */ = {
+			isa = PBXGroup;
+			children = (
+				C65151F21A36C0E500823C67 /* EffectStateStackObject.swift */,
+				C65151F41A36DB7A00823C67 /* CardActionController.swift */,
+			);
+			name = "State Resolution";
+			sourceTree = "<group>";
+		};
+		C6FA068F1A733E52007F4447 /* Effect List */ = {
+			isa = PBXGroup;
+			children = (
+				C6834F831A34780500CE3F27 /* CardActionsList.swift */,
+				C679962D1A8192380079868C /* CardList.swift */,
+				C6DB92771A846E59009CA2B3 /* CardDB */,
+				C6DB92781A846E64009CA2B3 /* PlayerDB */,
+			);
+			name = "Effect List";
+			sourceTree = "<group>";
+		};
+		C6FA069A1A734BA1007F4447 /* View Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C657AA4A1A77285C00BE1C84 /* CardView.swift */,
+				C657AA4B1A77285C00BE1C84 /* PlayerHandView.swift */,
+			);
+			name = "View Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +387,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A921D81A81B4E300C26B77 /* CardDBList.json in Resources */,
 				C6834F591A346BFE00CE3F27 /* Main.storyboard in Resources */,
+				C6EB074A1A85AB8600B5A75C /* PlayerDBList.json in Resources */,
+				C6C22A761A7B067600F6464A /* icon.png in Resources */,
 				C6834F5E1A346BFE00CE3F27 /* LaunchScreen.xib in Resources */,
 				C6834F5B1A346BFE00CE3F27 /* Images.xcassets in Resources */,
+				C6FA06911A73425A007F4447 /* Artifact Notes.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,20 +411,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6DB927C1A847DD0009CA2B3 /* PlayerDBObject.swift in Sources */,
 				C6834F761A346ED200CE3F27 /* MenuScreenView.swift in Sources */,
-				C65151EB1A365C2500823C67 /* CardDeck.swift in Sources */,
+				C65151EB1A365C2500823C67 /* DeckObject.swift in Sources */,
+				C6A921DA1A81B95100C26B77 /* CardDBMap.swift in Sources */,
 				C6834F7F1A34719800CE3F27 /* PlayerObject.swift in Sources */,
 				C6834F861A34D69300CE3F27 /* GameObject.swift in Sources */,
 				C6834F511A346BFE00CE3F27 /* AppDelegate.swift in Sources */,
 				C6834F541A346BFE00CE3F27 /* Artifacts.xcdatamodeld in Sources */,
 				C6834F741A346E9400CE3F27 /* MainFoundation.swift in Sources */,
+				C679962E1A8192380079868C /* CardList.swift in Sources */,
 				C6834F821A34738700CE3F27 /* CardObject.swift in Sources */,
 				C65151EF1A36621200823C67 /* CardDeckLoadActions.swift in Sources */,
-				C65151F31A36C0E500823C67 /* EffectStateStack.swift in Sources */,
+				C65151F31A36C0E500823C67 /* EffectStateStackObject.swift in Sources */,
 				C65151F51A36DB7A00823C67 /* CardActionController.swift in Sources */,
+				C6DB927A1A84795D009CA2B3 /* PlayerDBMap.swift in Sources */,
 				C6834F881A34D79500CE3F27 /* GameActions.swift in Sources */,
-				C65151ED1A365E8E00823C67 /* SpellCard.swift in Sources */,
+				C6DB92821A84A427009CA2B3 /* PlayerDBList.swift in Sources */,
+				C689F3E81A8349620078389B /* CardListObject.swift in Sources */,
+				C657AA4F1A77291400BE1C84 /* ViewObjectClass.swift in Sources */,
+				C6F97BA41A77049000BD9998 /* CreatureObject.swift in Sources */,
 				C6834F7C1A346F8D00CE3F27 /* GameScreenView.swift in Sources */,
+				C67996301A8195160079868C /* CardHandLoadActions.swift in Sources */,
+				C6BDDBB91A7EF7830002BCFF /* PlayerHandObject.swift in Sources */,
+				C657AA4C1A77285C00BE1C84 /* CardView.swift in Sources */,
+				C6DB92801A848DEE009CA2B3 /* DeckAudibleListObject.swift in Sources */,
+				C657AA4D1A77285C00BE1C84 /* PlayerHandView.swift in Sources */,
 				C6834F841A34780500CE3F27 /* CardActionsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

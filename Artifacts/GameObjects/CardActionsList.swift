@@ -18,5 +18,10 @@ class CardActionList {
         myPlayerObject.currentLifeTotal = myPlayerObject.currentLifeTotal - damage
     }
     
+    func healToTarget (heal : Int, myPlayerObject : PlayerObject) {
+        myPlayerObject.currentLifeTotal = myPlayerObject.currentLifeTotal + heal
+    }
+    
+    
 }
 

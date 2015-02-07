@@ -17,4 +17,9 @@ class GameObject {
     var playerOne = PlayerObject()
     var playerTwo = PlayerObject()
     
+    var currentTurn = 0
+    var cardsPLayed = 0
+    
+    
+    
 }

@@ -14,9 +14,13 @@ class MainFoundation: UIViewController {
 // MARK: - Init Properties
 //
 
-    var myGameObject = GameObject() //init
-    var myGameActions = GameActions() //init
-    var myCardActionController = CardActionController() //init
+    var myGameObject = GameObject() 
+    var myGameActions = GameActions()
+    var myCardActionController = CardActionController()
+    var myPlayerHand = PlayerHandView()
+    var myFullList = CardListObject()
+    
+    
 //
 // MARK: - Life Cycle
 //

@@ -1,0 +1,186 @@
+{
+    "playerList": {
+        "fullList": [
+            {
+                "playerID": "000001",
+                "playerName": "Phteven",
+                "fullCardList": [
+                    "000002",
+                    "000002",
+                    "000002",
+                    "000002"
+                ],
+                "deckLists": [
+                    {
+                        "deckID": "01",
+                        "deckName": "MuhDeck",
+                        "numberOfCards": "8",
+                        "cardCoreList": [
+                            "000001",
+                            "000001",
+                            "000002",
+                            "000002"
+                        ],
+                        "cardShiftList": [
+                            "000001",
+                            "000001",
+                            "000002",
+                            "000002"
+                        ],
+                        "cardAudibleList": [
+                            {
+                                "audibleID": "01",
+                                "audibleName": "anti-aggro",
+                                "audibleCardList": [
+                                    "000001",
+                                    "000001",
+                                    "000002",
+                                    "000002"
+                                ]
+                            },
+                            {
+                                "audibleID": "02",
+                                "audibleName": "anti-control",
+                                "audibleCardList": [
+                                    "000001",
+                                    "000001",
+                                    "000002",
+                                    "000002"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "deckID": "02",
+                        "deckName": "2Deckz",
+                        "numberOfCards": "8",
+                        "cardCoreList": [
+                            "000001",
+                            "000001",
+                            "000002",
+                            "000002"
+                        ],
+                        "cardShiftList": [
+                            "000001",
+                            "000001",
+                            "000002",
+                            "000002"
+                        ],
+                        "cardAudibleList": [
+                            {
+                                "audibleID": "01",
+                                "audibleName": "anti-control",
+                                "audibleCardList": [
+                                    "000001",
+                                    "000001",
+                                    "000002",
+                                    "000002"
+                                ]
+                            },
+                            {
+                                "audibleID": "02",
+                                "audibleName": "anti-control",
+                                "audibleCardList": [
+                                    "000001",
+                                    "000001",
+                                    "000002",
+                                    "000002"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "playerID": "000002",
+                "playerName": "Phiderman",
+                "fullCardList": [
+                    "000001",
+                    "000001",
+                    "000002",
+                    "000002"
+                ],
+                "deckLists": [
+                    {
+                        "deckID": "01",
+                        "deckName": "DudeDeck",
+                        "numberOfCards": "8",
+                        "cardCoreList": [
+                            "000001",
+                            "000001",
+                            "000002",
+                            "000002"
+                        ],
+                        "cardShiftList": [
+                            "000001",
+                            "000001",
+                            "000002",
+                            "000002"
+                        ],
+                        "cardAudibleList": [
+                            {
+                                "audibleID": "01",
+                                "audibleName": "anti-control",
+                                "audibleCardList": [
+                                    "000001",
+                                    "000001",
+                                    "000002",
+                                    "000002"
+                                ]
+                            },
+                            {
+                                "audibleID": "02",
+                                "audibleName": "anti-control",
+                                "audibleCardList": [
+                                    "000001",
+                                    "000001",
+                                    "000002",
+                                    "000002"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "deckID": "02",
+                        "deckName": "3Deckz",
+                        "numberOfCards": "8",
+                        "cardCoreList": [
+                            "000001",
+                            "000001",
+                            "000002",
+                            "000002"
+                        ],
+                        "cardShiftList": [
+                            "000001",
+                            "000001",
+                            "000002",
+                            "000002"
+                        ],
+                        "cardAudibleList": [
+                            {
+                                "audibleID": "01",
+                                "audibleName": "anti-control",
+                                "audibleCardList": [
+                                    "000001",
+                                    "000001",
+                                    "000002",
+                                    "000002"
+                                ]
+                            },
+                            {
+                                "audibleID": "02",
+                                "audibleName": "anti-control",
+                                "audibleCardList": [
+                                    "000001",
+                                    "000001",
+                                    "000002",
+                                    "000002"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

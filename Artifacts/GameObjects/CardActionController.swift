@@ -16,7 +16,7 @@ class CardActionController {
     
     func cardEffectStateBuilder (mySpellCardEffectListDictionary : [String:AnyObject], withTargetList : [AnyObject] )
     {
-        var myEffectStateStack = EffectStateStack()
+        var myEffectStateStack = EffectStateStackObject()
         
         if let damageCheck : AnyObject = mySpellCardEffectListDictionary["damage"] {
             myEffectStateStack.damageAmount = damageCheck as Int
@@ -42,11 +42,10 @@ class CardActionController {
         
     }
 
-    func cardEffectResolution ( myEffectStateStack : EffectStateStack)
+    func cardEffectResolution ( myEffectStateStack : EffectStateStackObject)
     {
         if let myEventArray = myEffectStateStack.effectArray {
             for item in myEventArray {
-                //println(item)
                 cardResolutionEventList(myEffectStateStack, eventItem : item)
             }
         }
@@ -55,16 +54,21 @@ class CardActionController {
         }
     }
 
-    func cardResolutionEventList (myEffectStateStack : EffectStateStack, eventItem : String) {
-        
+    func cardResolutionEventList (myEffectStateStack : EffectStateStackObject, eventItem : String)
+    {
         let myCardActionList = CardActionList()
         //let myPlayerObject = self.myGameObject.playerOne
         let myPlayerObject : PlayerObject = myEffectStateStack.targetArray![0] as PlayerObject
         if eventItem == "dealDamageToTarget"{
             myCardActionList.dealDamageToTarget(myEffectStateStack.damageAmount, myPlayerObject : myPlayerObject)
-            
             println("action complete")
         }
+        if eventItem == "healToTarget"{
+            myCardActionList.healToTarget(myEffectStateStack.damageAmount, myPlayerObject : myPlayerObject)
+            println("action complete")
+        }
+        
+        
     }
 
 }

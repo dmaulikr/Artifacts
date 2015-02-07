@@ -16,12 +16,18 @@ class CardObject {
         
     }
     
-    var cardID : Int = 0
-    var cardName : String = ""
+    var cardID : String = ""
+    var cardTitle : String = ""
     var cardClass : String = ""
     var cardText : String = ""
     var cardDescription : String = ""
     var cardNotes : String = ""
     var cardPowerRating : Double = 0.0
+    var cardImageFileName : String = ""
     
+    var cardType : String = ""
+    
+    var spellCardPropertyListDictionary : [NSObject: AnyObject]?
+    var spellCardEffectListDictionary : [NSObject: AnyObject]?
+
 }

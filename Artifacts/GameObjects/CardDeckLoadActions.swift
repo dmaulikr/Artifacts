@@ -15,10 +15,19 @@ class CardDeckLoadActions {
         
     }
     
-    func loadExampleDeck () -> CardDeck {
-        println("hi")
+    func loadExampleDeck () -> DeckObject {
+        println("deck card loaded")
         
-        var mySpellCard = SpellCard()
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        var mySpellCard = CardObject()
         mySpellCard.spellCardPropertyListDictionary = ["cardName" : "Lightning Bolt",
                                                        "cardText" : "Deal 3 damage"]
         
@@ -27,9 +36,9 @@ class CardDeckLoadActions {
                                               "functionCount" : 1,
                                               "firstFunction" : "dealDamageToTarget"]
         
-        var myCardDeck = CardDeck()
-        myCardDeck.cardCount = 1
-        myCardDeck.cardGroup = [mySpellCard]
+        var myCardDeck = DeckObject()
+        myCardDeck.cardCount = "1"
+        //myCardDeck.cardGroup = [mySpellCard]
         
         return myCardDeck
     }

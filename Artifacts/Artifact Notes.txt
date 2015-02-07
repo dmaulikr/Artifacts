@@ -1,0 +1,30 @@
+
+Notes
+
+
+
+  
+**OBJECTS**
+
+PlayerObject (var)
+CardObject (var)  
+SpellCardObject (2x dictionary)
+    
+**EFFECT LIST**
+
+-- Spell Effects List --
+CardActionList
+  
+**STATE RESOLUTION**         
+
+-- Spell Events Resolution --
+CardActionController
+EffectStateStackObject (var)
+
+**LOADERS**         
+
+-- Card/Deck loader --
+CardDeckLoadActions
+
+-- Game State loader --
+GameActions
